@@ -29,7 +29,13 @@ public class Consumer implements Runnable {
 
         System.out.println(sorted);
     }
-
+    
+    //TestChangeRepository
+    
+    //Sorry for bothering you in advance
+    
+    
+    
     private void sort(Integer item) {
         printStacks();
         while (!sorted.empty() && item > sorted.peek()) {
